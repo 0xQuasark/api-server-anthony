@@ -12,7 +12,7 @@ const Clothes = sequelize.define('Clothes', {
         allowNull: false
     },
     fabric: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.FLOAT, //INT: 23; FLOAT: 23.0, perhaps STRING
         allowNull: false
     }
 });

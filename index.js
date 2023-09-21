@@ -4,6 +4,8 @@ require('dotenv').config();
 const { sequelize } = require('./src/models');
 const server = require('./src/server.js');
 const PORT = process.env.PORT || 3001;
+// could instantiate new Sequelize
+// import env variable for db connection
 
 sequelize.sync()
   .then(() => {
