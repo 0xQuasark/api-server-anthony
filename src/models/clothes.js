@@ -11,7 +11,7 @@ const Clothes = sequelize.define('Clothes', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    volume: {
+    fabric: {
         type: DataTypes.FLOAT,
         allowNull: false
     }
